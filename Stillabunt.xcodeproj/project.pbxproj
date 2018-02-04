@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044015B5314752F4F1BF9C6E /* Pods_StillabuntTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A6DFA3AAE820FD57FA741 /* Pods_StillabuntTests.framework */; };
+		85540C5C54D23579FF88A5D7 /* Pods_Stillabunt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D65131AD33D17B6C94AF84F /* Pods_Stillabunt.framework */; };
 		D2AF70502027D00A0048CBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF704F2027D00A0048CBEF /* AppDelegate.swift */; };
 		D2AF70522027D00A0048CBEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF70512027D00A0048CBEF /* ViewController.swift */; };
 		D2AF70552027D00A0048CBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70532027D00A0048CBEF /* Main.storyboard */; };
 		D2AF70572027D00A0048CBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70562027D00A0048CBEF /* Assets.xcassets */; };
 		D2AF705A2027D00A0048CBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */; };
 		D2AF70652027D00A0048CBEF /* StillabuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF70642027D00A0048CBEF /* StillabuntTests.swift */; };
+		D2AF70702027D2550048CBEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2AF706F2027D2550048CBEF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D65131AD33D17B6C94AF84F /* Pods_Stillabunt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stillabunt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8A6DFA3AAE820FD57FA741 /* Pods_StillabuntTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StillabuntTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5977BB6D47E0A1A835FEAF /* Pods-Stillabunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stillabunt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt.release.xcconfig"; sourceTree = "<group>"; };
+		8B09E37A16A05930E7FDFC6C /* Pods-StillabuntTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StillabuntTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StillabuntTests/Pods-StillabuntTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B510E4A3AFCECF3E46531728 /* Pods-Stillabunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stillabunt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt.debug.xcconfig"; sourceTree = "<group>"; };
 		D2AF704C2027D00A0048CBEF /* Stillabunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stillabunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF704F2027D00A0048CBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AF70512027D00A0048CBEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		D2AF70602027D00A0048CBEF /* StillabuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StillabuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF70642027D00A0048CBEF /* StillabuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillabuntTests.swift; sourceTree = "<group>"; };
 		D2AF70662027D00A0048CBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF706F2027D2550048CBEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3C02F131CBD49A0DEEE013A /* Pods-StillabuntTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StillabuntTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StillabuntTests/Pods-StillabuntTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85540C5C54D23579FF88A5D7 /* Pods_Stillabunt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044015B5314752F4F1BF9C6E /* Pods_StillabuntTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC9784350A4655029AF6B405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D65131AD33D17B6C94AF84F /* Pods_Stillabunt.framework */,
+				4E8A6DFA3AAE820FD57FA741 /* Pods_StillabuntTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2AF70432027D00A0048CBEF = {
 			isa = PBXGroup;
 			children = (
 				D2AF704E2027D00A0048CBEF /* Stillabunt */,
 				D2AF70632027D00A0048CBEF /* StillabuntTests */,
 				D2AF704D2027D00A0048CBEF /* Products */,
+				D61F844C1BDAA58845206574 /* Pods */,
+				BC9784350A4655029AF6B405 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +106,7 @@
 				D2AF70562027D00A0048CBEF /* Assets.xcassets */,
 				D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */,
 				D2AF705B2027D00A0048CBEF /* Info.plist */,
+				D2AF706F2027D2550048CBEF /* GoogleService-Info.plist */,
 			);
 			path = Stillabunt;
 			sourceTree = "<group>";
@@ -96,6 +120,17 @@
 			path = StillabuntTests;
 			sourceTree = "<group>";
 		};
+		D61F844C1BDAA58845206574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B510E4A3AFCECF3E46531728 /* Pods-Stillabunt.debug.xcconfig */,
+				7D5977BB6D47E0A1A835FEAF /* Pods-Stillabunt.release.xcconfig */,
+				8B09E37A16A05930E7FDFC6C /* Pods-StillabuntTests.debug.xcconfig */,
+				F3C02F131CBD49A0DEEE013A /* Pods-StillabuntTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2AF70692027D00A0048CBEF /* Build configuration list for PBXNativeTarget "Stillabunt" */;
 			buildPhases = (
+				E7E7BB6ADF0D79446CDE5961 /* [CP] Check Pods Manifest.lock */,
 				D2AF70482027D00A0048CBEF /* Sources */,
 				D2AF70492027D00A0048CBEF /* Frameworks */,
 				D2AF704A2027D00A0048CBEF /* Resources */,
+				755D5A4FC2DE1518974C9834 /* [CP] Embed Pods Frameworks */,
+				06C41F978D5768DCD59ADEE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2AF706C2027D00A0048CBEF /* Build configuration list for PBXNativeTarget "StillabuntTests" */;
 			buildPhases = (
+				06B741A968FACC784A84469C /* [CP] Check Pods Manifest.lock */,
 				D2AF705C2027D00A0048CBEF /* Sources */,
 				D2AF705D2027D00A0048CBEF /* Frameworks */,
 				D2AF705E2027D00A0048CBEF /* Resources */,
+				02C0E6551476839F226AF6AB /* [CP] Embed Pods Frameworks */,
+				C34FF185ED44B2819FF7D89E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +223,7 @@
 				D2AF705A2027D00A0048CBEF /* LaunchScreen.storyboard in Resources */,
 				D2AF70572027D00A0048CBEF /* Assets.xcassets in Resources */,
 				D2AF70552027D00A0048CBEF /* Main.storyboard in Resources */,
+				D2AF70702027D2550048CBEF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +235,128 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C0E6551476839F226AF6AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StillabuntTests/Pods-StillabuntTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06B741A968FACC784A84469C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StillabuntTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06C41F978D5768DCD59ADEE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		755D5A4FC2DE1518974C9834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34FF185ED44B2819FF7D89E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StillabuntTests/Pods-StillabuntTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E7BB6ADF0D79446CDE5961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stillabunt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AF70482027D00A0048CBEF /* Sources */ = {
@@ -351,6 +515,7 @@
 		};
 		D2AF706A2027D00A0048CBEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B510E4A3AFCECF3E46531728 /* Pods-Stillabunt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +531,7 @@
 		};
 		D2AF706B2027D00A0048CBEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5977BB6D47E0A1A835FEAF /* Pods-Stillabunt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +547,7 @@
 		};
 		D2AF706D2027D00A0048CBEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B09E37A16A05930E7FDFC6C /* Pods-StillabuntTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +565,7 @@
 		};
 		D2AF706E2027D00A0048CBEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C02F131CBD49A0DEEE013A /* Pods-StillabuntTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
