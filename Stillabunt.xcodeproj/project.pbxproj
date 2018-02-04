@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2AF70502027D00A0048CBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF704F2027D00A0048CBEF /* AppDelegate.swift */; };
+		D2AF70522027D00A0048CBEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF70512027D00A0048CBEF /* ViewController.swift */; };
+		D2AF70552027D00A0048CBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70532027D00A0048CBEF /* Main.storyboard */; };
+		D2AF70572027D00A0048CBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70562027D00A0048CBEF /* Assets.xcassets */; };
+		D2AF705A2027D00A0048CBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */; };
+		D2AF70652027D00A0048CBEF /* StillabuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF70642027D00A0048CBEF /* StillabuntTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2AF70612027D00A0048CBEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AF70442027D00A0048CBEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AF704B2027D00A0048CBEF;
+			remoteInfo = Stillabunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2AF704C2027D00A0048CBEF /* Stillabunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stillabunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AF704F2027D00A0048CBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2AF70512027D00A0048CBEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2AF70542027D00A0048CBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2AF70562027D00A0048CBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2AF70592027D00A0048CBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2AF705B2027D00A0048CBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF70602027D00A0048CBEF /* StillabuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StillabuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AF70642027D00A0048CBEF /* StillabuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillabuntTests.swift; sourceTree = "<group>"; };
+		D2AF70662027D00A0048CBEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AF70492027D00A0048CBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF705D2027D00A0048CBEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2AF70432027D00A0048CBEF = {
+			isa = PBXGroup;
+			children = (
+				D2AF704E2027D00A0048CBEF /* Stillabunt */,
+				D2AF70632027D00A0048CBEF /* StillabuntTests */,
+				D2AF704D2027D00A0048CBEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AF704D2027D00A0048CBEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF704C2027D00A0048CBEF /* Stillabunt.app */,
+				D2AF70602027D00A0048CBEF /* StillabuntTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2AF704E2027D00A0048CBEF /* Stillabunt */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF704F2027D00A0048CBEF /* AppDelegate.swift */,
+				D2AF70512027D00A0048CBEF /* ViewController.swift */,
+				D2AF70532027D00A0048CBEF /* Main.storyboard */,
+				D2AF70562027D00A0048CBEF /* Assets.xcassets */,
+				D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */,
+				D2AF705B2027D00A0048CBEF /* Info.plist */,
+			);
+			path = Stillabunt;
+			sourceTree = "<group>";
+		};
+		D2AF70632027D00A0048CBEF /* StillabuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF70642027D00A0048CBEF /* StillabuntTests.swift */,
+				D2AF70662027D00A0048CBEF /* Info.plist */,
+			);
+			path = StillabuntTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2AF704B2027D00A0048CBEF /* Stillabunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AF70692027D00A0048CBEF /* Build configuration list for PBXNativeTarget "Stillabunt" */;
+			buildPhases = (
+				D2AF70482027D00A0048CBEF /* Sources */,
+				D2AF70492027D00A0048CBEF /* Frameworks */,
+				D2AF704A2027D00A0048CBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stillabunt;
+			productName = Stillabunt;
+			productReference = D2AF704C2027D00A0048CBEF /* Stillabunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2AF705F2027D00A0048CBEF /* StillabuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AF706C2027D00A0048CBEF /* Build configuration list for PBXNativeTarget "StillabuntTests" */;
+			buildPhases = (
+				D2AF705C2027D00A0048CBEF /* Sources */,
+				D2AF705D2027D00A0048CBEF /* Frameworks */,
+				D2AF705E2027D00A0048CBEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AF70622027D00A0048CBEF /* PBXTargetDependency */,
+			);
+			name = StillabuntTests;
+			productName = StillabuntTests;
+			productReference = D2AF70602027D00A0048CBEF /* StillabuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2AF70442027D00A0048CBEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ErmanMaris;
+				TargetAttributes = {
+					D2AF704B2027D00A0048CBEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2AF705F2027D00A0048CBEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2AF704B2027D00A0048CBEF;
+					};
+				};
+			};
+			buildConfigurationList = D2AF70472027D00A0048CBEF /* Build configuration list for PBXProject "Stillabunt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2AF70432027D00A0048CBEF;
+			productRefGroup = D2AF704D2027D00A0048CBEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AF704B2027D00A0048CBEF /* Stillabunt */,
+				D2AF705F2027D00A0048CBEF /* StillabuntTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2AF704A2027D00A0048CBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF705A2027D00A0048CBEF /* LaunchScreen.storyboard in Resources */,
+				D2AF70572027D00A0048CBEF /* Assets.xcassets in Resources */,
+				D2AF70552027D00A0048CBEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF705E2027D00A0048CBEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AF70482027D00A0048CBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF70522027D00A0048CBEF /* ViewController.swift in Sources */,
+				D2AF70502027D00A0048CBEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF705C2027D00A0048CBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF70652027D00A0048CBEF /* StillabuntTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2AF70622027D00A0048CBEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AF704B2027D00A0048CBEF /* Stillabunt */;
+			targetProxy = D2AF70612027D00A0048CBEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2AF70532027D00A0048CBEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AF70542027D00A0048CBEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AF70592027D00A0048CBEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2AF70672027D00A0048CBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2AF70682027D00A0048CBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2AF706A2027D00A0048CBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5NHG8EC8E;
+				INFOPLIST_FILE = Stillabunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariserman.Stillabunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2AF706B2027D00A0048CBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5NHG8EC8E;
+				INFOPLIST_FILE = Stillabunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariserman.Stillabunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2AF706D2027D00A0048CBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5NHG8EC8E;
+				INFOPLIST_FILE = StillabuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariserman.StillabuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stillabunt.app/Stillabunt";
+			};
+			name = Debug;
+		};
+		D2AF706E2027D00A0048CBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5NHG8EC8E;
+				INFOPLIST_FILE = StillabuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariserman.StillabuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stillabunt.app/Stillabunt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2AF70472027D00A0048CBEF /* Build configuration list for PBXProject "Stillabunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF70672027D00A0048CBEF /* Debug */,
+				D2AF70682027D00A0048CBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AF70692027D00A0048CBEF /* Build configuration list for PBXNativeTarget "Stillabunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF706A2027D00A0048CBEF /* Debug */,
+				D2AF706B2027D00A0048CBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AF706C2027D00A0048CBEF /* Build configuration list for PBXNativeTarget "StillabuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF706D2027D00A0048CBEF /* Debug */,
+				D2AF706E2027D00A0048CBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2AF70442027D00A0048CBEF /* Project object */;
+}
