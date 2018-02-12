@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		044015B5314752F4F1BF9C6E /* Pods_StillabuntTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A6DFA3AAE820FD57FA741 /* Pods_StillabuntTests.framework */; };
 		85540C5C54D23579FF88A5D7 /* Pods_Stillabunt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D65131AD33D17B6C94AF84F /* Pods_Stillabunt.framework */; };
+		D27B92C920313A6A0018DA30 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B92C820313A6A0018DA30 /* LocationManager.swift */; };
+		D27B92CC20314E790018DA30 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B92CB20314E790018DA30 /* CreatePostViewController.swift */; };
+		D27B92CF203175550018DA30 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B92CE203175550018DA30 /* Message.swift */; };
 		D2AF70502027D00A0048CBEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF704F2027D00A0048CBEF /* AppDelegate.swift */; };
-		D2AF70522027D00A0048CBEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF70512027D00A0048CBEF /* ViewController.swift */; };
+		D2AF70522027D00A0048CBEF /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF70512027D00A0048CBEF /* SceneViewController.swift */; };
 		D2AF70552027D00A0048CBEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70532027D00A0048CBEF /* Main.storyboard */; };
 		D2AF70572027D00A0048CBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70562027D00A0048CBEF /* Assets.xcassets */; };
 		D2AF705A2027D00A0048CBEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 		7D5977BB6D47E0A1A835FEAF /* Pods-Stillabunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stillabunt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt.release.xcconfig"; sourceTree = "<group>"; };
 		8B09E37A16A05930E7FDFC6C /* Pods-StillabuntTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StillabuntTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StillabuntTests/Pods-StillabuntTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B510E4A3AFCECF3E46531728 /* Pods-Stillabunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stillabunt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stillabunt/Pods-Stillabunt.debug.xcconfig"; sourceTree = "<group>"; };
+		D27B92C820313A6A0018DA30 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D27B92CB20314E790018DA30 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		D27B92CE203175550018DA30 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D2AF704C2027D00A0048CBEF /* Stillabunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stillabunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF704F2027D00A0048CBEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2AF70512027D00A0048CBEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2AF70512027D00A0048CBEF /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		D2AF70542027D00A0048CBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2AF70562027D00A0048CBEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2AF70592027D00A0048CBEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,9 +83,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D27B92C720313A520018DA30 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D27B92C820313A6A0018DA30 /* LocationManager.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		D27B92CA20314E2A0018DA30 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF70512027D00A0048CBEF /* SceneViewController.swift */,
+				D27B92CB20314E790018DA30 /* CreatePostViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D27B92CD2031752A0018DA30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D27B92CE203175550018DA30 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D2AF70432027D00A0048CBEF = {
 			isa = PBXGroup;
 			children = (
+				D27B92C720313A520018DA30 /* Singleton */,
 				D2AF704E2027D00A0048CBEF /* Stillabunt */,
 				D2AF70632027D00A0048CBEF /* StillabuntTests */,
 				D2AF704D2027D00A0048CBEF /* Products */,
@@ -100,8 +132,9 @@
 		D2AF704E2027D00A0048CBEF /* Stillabunt */ = {
 			isa = PBXGroup;
 			children = (
+				D27B92CD2031752A0018DA30 /* Model */,
+				D27B92CA20314E2A0018DA30 /* ViewController */,
 				D2AF704F2027D00A0048CBEF /* AppDelegate.swift */,
-				D2AF70512027D00A0048CBEF /* ViewController.swift */,
 				D2AF70532027D00A0048CBEF /* Main.storyboard */,
 				D2AF70562027D00A0048CBEF /* Assets.xcassets */,
 				D2AF70582027D00A0048CBEF /* LaunchScreen.storyboard */,
@@ -363,8 +396,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AF70522027D00A0048CBEF /* ViewController.swift in Sources */,
+				D2AF70522027D00A0048CBEF /* SceneViewController.swift in Sources */,
 				D2AF70502027D00A0048CBEF /* AppDelegate.swift in Sources */,
+				D27B92CF203175550018DA30 /* Message.swift in Sources */,
+				D27B92CC20314E790018DA30 /* CreatePostViewController.swift in Sources */,
+				D27B92C920313A6A0018DA30 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
